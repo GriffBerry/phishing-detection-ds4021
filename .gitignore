@@ -1,0 +1,7 @@
+# Full original dataset (contains the reporting rows); recreate with make_split.py
+Data/raw/
+
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
+.venv/
