@@ -2,7 +2,7 @@
 
 DS 4021 – Machine Learning, Final Project
 
-**Group members:** Griff Berry, Will Boonin, Huda Mahmoud
+**Group members:** Griff Berry, Will Boonin, Huda Mohmand
 
 ## Research question
 
