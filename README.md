@@ -2,16 +2,16 @@
 
 DS 4021 – Machine Learning, Final Project
 
-**Group members:** _add names_
+**Group members:** Griff Berry, Will Boonin, Huda Mahmoud
 
 ## Research question
 
-At a fixed 1% false-positive rate, how much phishing-detection recall do support vector machine,
+At a fixed 5% false-positive rate, how much phishing-detection recall do support vector machine,
 random forest, gradient boosting, and neural network classifiers lose when restricted to features
 computed from the URL alone, compared with the full set of URL, page-content, and external-service
 features?
 
-An L1-regularized logistic regression serves as the baseline.
+We are using an L1-regularized logistic regression to serve as the baseline for this research question.
 
 ## Data
 
@@ -19,8 +19,8 @@ Hannousse & Yahiouche, *Web page phishing detection*, Mendeley Data, v3 (2021),
 doi: [10.17632/c2gw7fy2j4.3](https://doi.org/10.17632/c2gw7fy2j4.3), file `dataset_B_05_2020.csv`
 (collected May 2020).
 
-- 11,430 websites, exactly balanced (5,715 phishing, 5,715 legitimate)
-- 87 features in three groups:
+- 11,430 websites, balanced between 5,715 phishing, and 5,715 legitimate
+- There are 87 features in three groups:
   - **URL (56):** `length_url` … `statistical_report`
   - **Page content (24):** `nb_hyperlinks` … `domain_with_copyright`
   - **External services (7):** `whois_registered_domain`, `domain_registration_length`, `domain_age`,
